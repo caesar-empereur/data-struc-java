@@ -25,7 +25,7 @@ public class LinkStack<T> {
     }
 
     /*
-    出战操作
+    栈顶出栈操作
      */
     public T pop(){
         if (top == null){
@@ -47,8 +47,22 @@ public class LinkStack<T> {
         return top.value;
     }
 
+    /*
+    获取栈顶元素
+     */
+    public T peek(){
+        if (top == null){
+            return null;
+        }
+        return top.value;
+    }
+
     public int size(){
         return length;
+    }
+
+    public boolean isEmpty(){
+        return  top == null;
     }
 
     /*

@@ -83,7 +83,6 @@ public class BinaryTree<T> {
 
     /**
      * 先根遍历的递归方式
-     * @param root
      */
     public void preRootAccess(BinaryTreeNode<T> root){
         if (root == null){
@@ -96,7 +95,6 @@ public class BinaryTree<T> {
 
     /**
      * 中根遍历的递归方式
-     * @param root
      */
     public void midRootAccess(BinaryTreeNode<T> root){
         if (root == null){
@@ -109,7 +107,6 @@ public class BinaryTree<T> {
 
     /**
      * 后根遍历的递归方式
-     * @param root
      */
     public void postRootAccess(BinaryTreeNode<T> root){
         if (root == null){

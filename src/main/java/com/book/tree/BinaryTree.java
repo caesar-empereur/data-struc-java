@@ -1,6 +1,6 @@
-package com.tree;
+package com.book.tree;
 
-import com.stackqueue.LinkStack;
+import com.book.stackqueue.LinkStack;
 
 /**
  * Created by yang on 2020/9/21.

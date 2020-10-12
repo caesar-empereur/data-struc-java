@@ -1,4 +1,4 @@
-package com.sort.insertsort;
+package com.book.sort.insertsort;
 
 /**
  * Created by yang on 2020/9/22.

@@ -1,4 +1,4 @@
-package com.sort.swapsort;
+package com.book.sort.swapsort;
 
 /**
  * Created by yang on 2020/9/22.

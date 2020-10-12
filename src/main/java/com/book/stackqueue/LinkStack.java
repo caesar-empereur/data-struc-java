@@ -1,4 +1,4 @@
-package com.stackqueue;
+package com.book.stackqueue;
 
 /**
  * Created by yang on 2020/9/20.

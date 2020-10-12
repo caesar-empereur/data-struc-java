@@ -1,4 +1,4 @@
-package com.sort.selectsort;
+package com.book.sort.selectsort;
 
 /**
  * Created by yang on 2020/9/23.

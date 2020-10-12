@@ -1,4 +1,4 @@
-package com.sort.mergesort;
+package com.book.sort.mergesort;
 
 /**
  * Created by yang on 2020/9/23.

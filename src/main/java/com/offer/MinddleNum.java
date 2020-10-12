@@ -13,7 +13,8 @@ import java.util.PriorityQueue;
 public class MinddleNum {
 
     public static void main(String[] args) {
-
+        int[] array = new int[] { 2,5,7,8,4,9 };
+        System.out.println(findMinddleNum(array));
     }
 
     private static double findMinddleNum(int[] array) {
@@ -30,15 +31,19 @@ public class MinddleNum {
             mindLenght = array.length / 2 + 1;
         }
         for (int i : array) {
-            //默认放到大顶堆
+            //默认放到左边的大顶堆 (用来存放数组较小的数)
             if (maxHeap.size() == 0 || i <= maxHeap.peek()){
                 maxHeap.add(i);
+                //如果大顶堆的个数已经比小顶堆的多
                 if (maxHeap.size() > mindLenght){
+                    //则把大顶堆的堆顶 转移到 小顶堆
                     minHeap.add(maxHeap.poll());
                 }
             } else {
                 minHeap.add(i);
+                //如果小顶堆的个数 比大顶堆的个数多
                 if (maxHeap.size() < mindLenght){
+                    //则把小顶堆的堆顶转移到大顶堆
                     maxHeap.add(minHeap.poll());
                 }
             }
